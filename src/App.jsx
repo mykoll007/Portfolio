@@ -1,12 +1,12 @@
 import Header from './components/Header';
+import Main from './components/Main';
 
 function App() {
   return (
     <>
       <Header />
-      <main>
-        <h1 id='inicio'>Bem-vindo ao Portfólio</h1>
-      </main>
+      <Main/>
+
     </>
   );
 }
