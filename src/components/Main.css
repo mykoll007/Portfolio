@@ -67,6 +67,39 @@ h2{
     width: 80%;
     max-width: 1022px;
 }
+#align-icons {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 50px;
+    padding: 0 40px;
+    justify-content: center;
+    justify-items: center;
+    max-width: 1019px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+#align-icons img{
+  width: 85px;
+}
+
+.card{
+  width: 250px;
+    background-color: #363636;
+    border: 1px solid #363636;
+    border-radius: 20px;
+    color: #CCCCCC;
+    font-family: 'Poppins';
+}
+.card img {
+  width: 100%; /* ocupa toda a largura do container */
+  height: 200px; /* altura desejada, ajuste como quiser */
+  object-fit: cover; /* faz a imagem "cortar" para preencher a área sem distorcer */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
 
 
 
@@ -90,6 +123,12 @@ h2{
     width: 200px;
     height: 200px;
     margin-right: 0;
+  }
+}
+
+@media(max-width: 479px) {
+  #align-icons{
+    gap: 20px;
   }
 }
 

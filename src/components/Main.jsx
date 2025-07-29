@@ -1,5 +1,20 @@
 import './Main.css';
 import fotoMykoll from '../assets/foto-mykoll.webp';
+import imgHtml from '../assets/html.svg';
+import imgCss from '../assets/css.svg';
+import imgJS from '../assets/js.svg';
+import imgReact from '../assets/react.svg';
+import imgVite from '../assets/vite.svg';
+import imgBootstrap from '../assets/bootstrap.svg';
+import imgNode from '../assets/Node.svg';
+import imgPhp from '../assets/php.svg';
+import imgGit from '../assets/git.svg';
+import imgMysql from '../assets/mysql.svg';
+import imgVScode from '../assets/vscode.svg';
+import imgGithub from '../assets/github.svg';
+import Banner1 from '../assets/Champs.png';
+
+
 
 function Main() {
 
@@ -22,20 +37,54 @@ function Main() {
             {/* Primeiro Tópico */}
             <h2>Sobre Mim</h2>
 
-            <div className='align-text'> 
-            <p>Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.</p>
+            <div className='align-text'>
+                <p>Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.</p>
             </div>
 
             {/* Segundo Tópico */}
             <h2>Tecnologias Utilizadas</h2>
 
-            <div className='align-text'> 
-            <p>Tecnologias com as quais tenho trabalhado recentemente</p>
+            <div className='align-text'>
+                <p>Tecnologias com as quais tenho trabalhado recentemente</p>
             </div>
 
+            <div id='align-icons'>
+                <img src={imgHtml} alt="Icone Html" />
+                <img src={imgCss} alt="Icone Css" />
+                <img src={imgJS} alt="Icone Js" />
+                <img src={imgReact} alt="Icone React" />
+                <img src={imgVite} alt="Icone Vite" />
+                <img src={imgBootstrap} alt="Icone Bootstrap" />
+                <img src={imgNode} alt="Icone Node.js" />
+                <img src={imgPhp} alt="Icone PHP" />
+                <img src={imgGit} alt="Icone Git" />
+                <img src={imgMysql} alt="Icone Mysql" />
+                <img src={imgVScode} alt="Icone Vscode" />
+                <img src={imgGithub} alt="Icone Github" />
+            </div>
 
+            {/* Terceiro Tópico */}
+            <h2>Projetos</h2>
 
+            <div className='align-text'>
+                <p>Alguns dos que já fiz até aqui</p>
+            </div>
 
+            <div className='card'>
+              <img src={Banner1} alt="" />
+              <p className='titulo-card'>Guia dos Campeões - LoL</p>
+              <p className='desc-card'>Este é um projeto desenvolvido em React + TypeScript + Vite que consome a API do League of Legends (DDragon) para exibir uma lista completa de personagens, com busca, visualização de detalhes e sistema de favoritos.</p>
+              <p className='desc-tecno'>Tecnologias Utilizadas : HTML , CSS, React, Typescript, JavaScript, Vite</p>
+
+              <div className='align-link'>
+                <img src="" alt="" />
+                <p>Ver Site</p>
+              </div> 
+              <div className='align-link'>
+                <img src="" alt="" />
+                <p>Ver Código</p>
+              </div> 
+            </div>
         </main>
     );
 }
