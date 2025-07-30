@@ -32,7 +32,7 @@ span {
   margin-right: 55px;
   border-radius: 50%;
   padding: 8px;
-  background: linear-gradient(90deg, #E70FAA 0%, #00C0FD 100%);
+  background: linear-gradient(90deg, #E70FAA -38%, #00C0FD 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,7 +99,53 @@ h2{
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
-
+.titulo-card{
+  text-align: center;
+  font-weight: 500;
+}
+.desc-card{
+    font-size: 12px;
+    opacity: 0.8;
+    padding-left: 21px;
+    padding-top: 9px;
+    padding-bottom: 8px;
+}
+.desc-tecno{
+  font-size: 12px;
+    padding-left: 21px;
+}
+.tecnologias{
+  font-weight: 500;
+}
+.tec-html{
+  all: unset;
+  color: #e34c26;
+}
+.tec-css{
+  all: unset;
+  color: #264de4;
+  font-weight: bold;
+}
+.tec-react{
+  all: unset;
+  color: #61dafb;
+  font-weight: bold;
+}
+.tec-ts{
+  all: unset;
+  color: #007acc;
+  font-weight: bold;
+}
+.tec-js{
+  all: unset;
+  color: #f0db4f;
+  font-weight: bold;
+}
+.tec-vite{
+  all: unset;
+  color: #646cff;
+  font-weight: bold;
+}
 
 
 

@@ -13,6 +13,7 @@ import imgMysql from '../assets/mysql.svg';
 import imgVScode from '../assets/vscode.svg';
 import imgGithub from '../assets/github.svg';
 import Banner1 from '../assets/Champs.png';
+import imgLink from '../assets/link.svg';
 
 
 
@@ -71,19 +72,24 @@ function Main() {
             </div>
 
             <div className='card'>
-              <img src={Banner1} alt="" />
-              <p className='titulo-card'>Guia dos Campeões - LoL</p>
-              <p className='desc-card'>Este é um projeto desenvolvido em React + TypeScript + Vite que consome a API do League of Legends (DDragon) para exibir uma lista completa de personagens, com busca, visualização de detalhes e sistema de favoritos.</p>
-              <p className='desc-tecno'>Tecnologias Utilizadas : HTML , CSS, React, Typescript, JavaScript, Vite</p>
+                <img src={Banner1} alt="" />
+                <p className='titulo-card'>Guia dos Campeões - LoL</p>
+                <p className='desc-card'>Este é um projeto desenvolvido em React + TypeScript + Vite que consome a API do League of Legends (DDragon) para exibir uma lista completa de personagens, com busca, visualização de detalhes e sistema de favoritos.</p>
+                <p className='desc-tecno'><b className='tecnologias'>Tecnologias Utilizadas :</b><span className='tec-html'> HTML </span>,
+                    <span className='tec-css'> CSS </span>,
+                    <span className='tec-react'> React </span>,
+                    <span className='tec-ts'> TypeScript </span>,
+                    <span className='tec-js'> JavaScript </span>,
+                    <span className='tec-vite'> Vite </span></p>
 
-              <div className='align-link'>
-                <img src="" alt="" />
-                <p>Ver Site</p>
-              </div> 
-              <div className='align-link'>
-                <img src="" alt="" />
-                <p>Ver Código</p>
-              </div> 
+                <div className='align-link'>
+                    <img src={imgLink} alt="Icone do Link" />
+                    <p>Ver Site</p>
+                </div>
+                <div className='align-link'>
+                    <img src="" alt="" />
+                    <p>Ver Código</p>
+                </div>
             </div>
         </main>
     );
