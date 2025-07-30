@@ -68,34 +68,165 @@ function Main() {
             {/* Terceiro Tópico */}
             <h2>Projetos</h2>
 
-            <div className='align-text'>
+            <div className='align-text' id='terceiro-tpc'>
                 <p>Alguns dos que já fiz até aqui</p>
             </div>
 
-            <div className='card'>
-                <img src={Banner1} alt="" />
-                <p className='titulo-card'>Guia dos Campeões - LoL</p>
-                <p className='desc-card'>Este é um projeto desenvolvido em React + TypeScript + Vite que consome a API do League of Legends (DDragon) para exibir uma lista completa de personagens, com busca, visualização de detalhes e sistema de favoritos.</p>
-                <p className='desc-tecno'><b className='tecnologias'>Tecnologias Utilizadas :</b><span className='tec-html'> HTML </span>,
-                    <span className='tec-css'> CSS </span>,
-                    <span className='tec-react'> React </span>,
-                    <span className='tec-ts'> TypeScript </span>,
-                    <span className='tec-js'> JavaScript </span>,
-                    <span className='tec-vite'> Vite </span></p>
+            <section className='cards'>
+                {/* Card 1 */}
+                <div className='card'>
+                    <img src={Banner1} alt="" />
+                    <p className='titulo-card'>Guia dos Campeões - LoL</p>
+                    <p className='desc-card'>Este é um projeto desenvolvido em React + TypeScript + Vite que consome a API do League of Legends (DDragon) para exibir uma lista completa de personagens, com busca, visualização de detalhes e sistema de favoritos.</p>
+                    <p className='desc-tecno'><b className='tecnologias'>Tecnologias Utilizadas :</b><span className='tec-html'> HTML </span>,
+                        <span className='tec-css'> CSS </span>,
+                        <span className='tec-react'> React </span>,
+                        <span className='tec-ts'> TypeScript </span>,
+                        <span className='tec-js'> JavaScript </span>,
+                        <span className='tec-vite'> Vite </span></p>
 
-                <div className='align-links'>
-                    <div className='align-link'>
-                        <img src={imgLink} alt="Icone do Link" />
-                        <a href='https://lista-react-typescript.vercel.app/' target="_blank" rel="noreferrer">Ver Site</a>
-                    </div>
-                    <div className='align-link'>
-                        <FaGithub />
-                        <a href='https://github.com/mykoll007/PI-React-Typescript' target="_blank" rel="noreferrer">
-                            Ver Código
-                        </a>
+                    <div className='align-links'>
+                        <div className='align-link'>
+                            <img src={imgLink} alt="Icone do Link" />
+                            <a href='https://lista-react-typescript.vercel.app/' target="_blank" rel="noreferrer">Ver Site</a>
+                        </div>
+                        <div className='align-link'>
+                            <FaGithub />
+                            <a href='https://github.com/mykoll007/PI-React-Typescript' target="_blank" rel="noreferrer">
+                                Ver Código
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
+
+                {/* Card 2 */}
+                <div className='card'>
+                    <img src={Banner1} alt="" />
+                    <p className='titulo-card'>Plataforma de Mentoria</p>
+                    <p className='desc-card'>Sistema focado em serviços de elojob e mentoria, com gestão de pedidos, integração de pagamentos e acompanhamento de progresso. Segurança, eficiência e experiência do usuário são prioridades.</p>
+                    <p className='desc-tecno'><b className='tecnologias'>Tecnologias Utilizadas :</b><span className='tec-html'> HTML </span>,
+                        <span className='tec-css'> CSS </span>,
+                        <span className='tec-js'> JavaScript </span>
+                    </p>
+
+
+                    <div className='align-links'>
+                        <div className='align-link'>
+                            <img src={imgLink} alt="Icone do Link" />
+                            <a href='https://elojobxcronos.com.br/' target="_blank" rel="noreferrer">Ver Site</a>
+                        </div>
+                        <div className='align-link'>
+                            <FaGithub />
+                            <a href='https://github.com/mykoll007/Projeto-Elojob' target="_blank" rel="noreferrer">
+                                Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Card 3 */}
+                <div className='card'>
+                    <img src={Banner1} alt="" />
+                    <p className='titulo-card'>Sistema de Autenticação</p>
+                    <p className='desc-card'>Experimente um sistema real de autenticação! Cadastre-se, faça login, recupere sua senha e veja como front-end, back-end em Node.js (JS), API REST e o banco de dados se conectam em um fluxo completo e profissional.</p>
+                    <p className='desc-tecno'><b className='tecnologias'>Tecnologias Utilizadas :</b><span className='tec-html'> HTML </span>,
+                        <span className='tec-css'> CSS </span>,
+                        <span className='tec-js'> JavaScript </span>,
+                        <span className='tec-node'> Node.js</span>,
+                        <span className='tec-mysql'> MySQL</span></p>
+
+                    <div className='align-links'>
+                        <div className='align-link'>
+                            <img src={imgLink} alt="Icone do Link" />
+                            <a href='https://projeto-x-cronos--green.vercel.app/' target="_blank" rel="noreferrer">Ver Site</a>
+                        </div>
+                        <div className='align-link'>
+                            <FaGithub />
+                            <a href='https://github.com/mykoll007/Projeto-XCronos' target="_blank" rel="noreferrer">
+                                Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Card 4 */}
+                <div className='card'>
+                    <img src={Banner1} alt="" />
+                    <p className='titulo-card'>Guia dos Campeões - LoL</p>
+                    <p className='desc-card'>Este é um projeto desenvolvido em React + TypeScript + Vite que consome a API do League of Legends (DDragon) para exibir uma lista completa de personagens, com busca, visualização de detalhes e sistema de favoritos.</p>
+                    <p className='desc-tecno'><b className='tecnologias'>Tecnologias Utilizadas :</b><span className='tec-html'> HTML </span>,
+                        <span className='tec-css'> CSS </span>,
+                        <span className='tec-react'> React </span>,
+                        <span className='tec-ts'> TypeScript </span>,
+                        <span className='tec-js'> JavaScript </span>,
+                        <span className='tec-vite'> Vite </span></p>
+
+                    <div className='align-links'>
+                        <div className='align-link'>
+                            <img src={imgLink} alt="Icone do Link" />
+                            <a href='https://lista-react-typescript.vercel.app/' target="_blank" rel="noreferrer">Ver Site</a>
+                        </div>
+                        <div className='align-link'>
+                            <FaGithub />
+                            <a href='https://github.com/mykoll007/PI-React-Typescript' target="_blank" rel="noreferrer">
+                                Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Card 5 */}
+                <div className='card'>
+                    <img src={Banner1} alt="" />
+                    <p className='titulo-card'>Guia dos Campeões - LoL</p>
+                    <p className='desc-card'>Este é um projeto desenvolvido em React + TypeScript + Vite que consome a API do League of Legends (DDragon) para exibir uma lista completa de personagens, com busca, visualização de detalhes e sistema de favoritos.</p>
+                    <p className='desc-tecno'><b className='tecnologias'>Tecnologias Utilizadas :</b><span className='tec-html'> HTML </span>,
+                        <span className='tec-css'> CSS </span>,
+                        <span className='tec-react'> React </span>,
+                        <span className='tec-ts'> TypeScript </span>,
+                        <span className='tec-js'> JavaScript </span>,
+                        <span className='tec-vite'> Vite </span></p>
+
+                    <div className='align-links'>
+                        <div className='align-link'>
+                            <img src={imgLink} alt="Icone do Link" />
+                            <a href='https://lista-react-typescript.vercel.app/' target="_blank" rel="noreferrer">Ver Site</a>
+                        </div>
+                        <div className='align-link'>
+                            <FaGithub />
+                            <a href='https://github.com/mykoll007/PI-React-Typescript' target="_blank" rel="noreferrer">
+                                Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Card 6 */}
+                <div className='card'>
+                    <img src={Banner1} alt="" />
+                    <p className='titulo-card'>Guia dos Campeões - LoL</p>
+                    <p className='desc-card'>Este é um projeto desenvolvido em React + TypeScript + Vite que consome a API do League of Legends (DDragon) para exibir uma lista completa de personagens, com busca, visualização de detalhes e sistema de favoritos.</p>
+                    <p className='desc-tecno'><b className='tecnologias'>Tecnologias Utilizadas :</b><span className='tec-html'> HTML </span>,
+                        <span className='tec-css'> CSS </span>,
+                        <span className='tec-react'> React </span>,
+                        <span className='tec-ts'> TypeScript </span>,
+                        <span className='tec-js'> JavaScript </span>,
+                        <span className='tec-vite'> Vite </span></p>
+
+                    <div className='align-links'>
+                        <div className='align-link'>
+                            <img src={imgLink} alt="Icone do Link" />
+                            <a href='https://lista-react-typescript.vercel.app/' target="_blank" rel="noreferrer">Ver Site</a>
+                        </div>
+                        <div className='align-link'>
+                            <FaGithub />
+                            <a href='https://github.com/mykoll007/PI-React-Typescript' target="_blank" rel="noreferrer">
+                                Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     );
 }

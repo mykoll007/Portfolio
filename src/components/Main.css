@@ -84,9 +84,20 @@ h2{
   width: 85px;
 }
 
+#terceiro-tpc p{
+  margin-bottom: 11px;
+}
+.cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 0fr)); /* responsivo */
+    gap: 3rem; /* espaço entre os cards */
+    padding: 2rem;
+}
 .card{
   width: 300px;
     background-color: #363636;
+    padding-bottom: 12px;
     border: 1px solid #363636;
     border-radius: 20px;
     color: #CCCCCC;
@@ -145,6 +156,16 @@ h2{
 .tec-vite{
   all: unset;
   color: #646cff;
+  font-weight: bold;
+}
+.tec-node{
+  all: unset;
+  color: #339933;
+  font-weight: bold;
+}
+.tec-mysql{
+  all: unset;
+  color: #005F73;
   font-weight: bold;
 }
 .align-links{
