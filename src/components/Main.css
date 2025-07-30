@@ -85,7 +85,7 @@ h2{
 }
 
 .card{
-  width: 250px;
+  width: 300px;
     background-color: #363636;
     border: 1px solid #363636;
     border-radius: 20px;
@@ -102,16 +102,17 @@ h2{
 .titulo-card{
   text-align: center;
   font-weight: 500;
+  font-size: 20px;
 }
 .desc-card{
-    font-size: 12px;
+    font-size: 14px;
     opacity: 0.8;
     padding-left: 21px;
     padding-top: 9px;
     padding-bottom: 8px;
 }
 .desc-tecno{
-  font-size: 12px;
+  font-size: 14px;
     padding-left: 21px;
 }
 .tecnologias{
@@ -146,7 +147,24 @@ h2{
   color: #646cff;
   font-weight: bold;
 }
-
+.align-links{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 12px;
+}
+.align-link{
+  display: flex;
+  align-items: center;
+}
+.align-link img, .align-link svg{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 1px;
+}
+.align-link a{
+    margin-left: 6px;
+    color: #CCCCCC;
+}
 
 
 

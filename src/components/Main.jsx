@@ -14,6 +14,7 @@ import imgVScode from '../assets/vscode.svg';
 import imgGithub from '../assets/github.svg';
 import Banner1 from '../assets/Champs.png';
 import imgLink from '../assets/link.svg';
+import { FaGithub } from 'react-icons/fa';
 
 
 
@@ -82,13 +83,17 @@ function Main() {
                     <span className='tec-js'> JavaScript </span>,
                     <span className='tec-vite'> Vite </span></p>
 
-                <div className='align-link'>
-                    <img src={imgLink} alt="Icone do Link" />
-                    <p>Ver Site</p>
-                </div>
-                <div className='align-link'>
-                    <img src="" alt="" />
-                    <p>Ver Código</p>
+                <div className='align-links'>
+                    <div className='align-link'>
+                        <img src={imgLink} alt="Icone do Link" />
+                        <a href='https://lista-react-typescript.vercel.app/' target="_blank" rel="noreferrer">Ver Site</a>
+                    </div>
+                    <div className='align-link'>
+                        <FaGithub />
+                        <a href='https://github.com/mykoll007/PI-React-Typescript' target="_blank" rel="noreferrer">
+                            Ver Código
+                        </a>
+                    </div>
                 </div>
             </div>
         </main>
