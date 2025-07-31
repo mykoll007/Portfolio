@@ -152,23 +152,22 @@ function Main() {
                 {/* Card 4 */}
                 <div className='card'>
                     <img src={Banner1} alt="" />
-                    <p className='titulo-card'>Guia dos Campeões - LoL</p>
-                    <p className='desc-card'>Este é um projeto desenvolvido em React + TypeScript + Vite que consome a API do League of Legends (DDragon) para exibir uma lista completa de personagens, com busca, visualização de detalhes e sistema de favoritos.</p>
+                    <p className='titulo-card'>Portfólio Fotográfico</p>
+                    <p className='desc-card'>Este projeto é um portfólio de fotografia criado para exibir o trabalho de um fotógrafo profissional. Inclui galerias de imagens, descrições de projetos, informações de contato e muito mais.</p>
                     <p className='desc-tecno'><b className='tecnologias'>Tecnologias Utilizadas :</b><span className='tec-html'> HTML </span>,
                         <span className='tec-css'> CSS </span>,
-                        <span className='tec-react'> React </span>,
-                        <span className='tec-ts'> TypeScript </span>,
-                        <span className='tec-js'> JavaScript </span>,
-                        <span className='tec-vite'> Vite </span></p>
+                        <span className='tec-scss'> SCSS </span>,
+                        <span className='tec-js'> JavaScript </span>
+                    </p>
 
                     <div className='align-links'>
                         <div className='align-link'>
                             <img src={imgLink} alt="Icone do Link" />
-                            <a href='https://lista-react-typescript.vercel.app/' target="_blank" rel="noreferrer">Ver Site</a>
+                            <a href='https://portfolio-paolla.netlify.app/pages/portfolio' target="_blank" rel="noreferrer">Ver Site</a>
                         </div>
                         <div className='align-link'>
                             <FaGithub />
-                            <a href='https://github.com/mykoll007/PI-React-Typescript' target="_blank" rel="noreferrer">
+                            <a href='https://github.com/mykoll007/Projeto-Fotografia' target="_blank" rel="noreferrer">
                                 Ver Código
                             </a>
                         </div>
@@ -178,23 +177,20 @@ function Main() {
                 {/* Card 5 */}
                 <div className='card'>
                     <img src={Banner1} alt="" />
-                    <p className='titulo-card'>Guia dos Campeões - LoL</p>
-                    <p className='desc-card'>Este é um projeto desenvolvido em React + TypeScript + Vite que consome a API do League of Legends (DDragon) para exibir uma lista completa de personagens, com busca, visualização de detalhes e sistema de favoritos.</p>
-                    <p className='desc-tecno'><b className='tecnologias'>Tecnologias Utilizadas :</b><span className='tec-html'> HTML </span>,
+                    <p className='titulo-card'>Rick and Morty API</p>
+                    <p className='desc-card'>Neste projeto, os dados da API são consumidos de duas maneiras: localmente, por meio de um arquivo JSON armazenado na pasta do projeto, e via requisição GET, acessando a API para obter informações e imagens.</p>
+                    <p className='desc-tecno'><b className='tecnologias'>Tecnologias Utilizadas :</b><span className='tec-php'> PHP </span>,
                         <span className='tec-css'> CSS </span>,
-                        <span className='tec-react'> React </span>,
-                        <span className='tec-ts'> TypeScript </span>,
-                        <span className='tec-js'> JavaScript </span>,
-                        <span className='tec-vite'> Vite </span></p>
+                        <span className='tec-dockerfile'> Dockerfile </span></p>
 
                     <div className='align-links'>
                         <div className='align-link'>
                             <img src={imgLink} alt="Icone do Link" />
-                            <a href='https://lista-react-typescript.vercel.app/' target="_blank" rel="noreferrer">Ver Site</a>
+                            <a href='https://api-rickandmorty-58q6.onrender.com/' target="_blank" rel="noreferrer">Ver Site</a>
                         </div>
                         <div className='align-link'>
                             <FaGithub />
-                            <a href='https://github.com/mykoll007/PI-React-Typescript' target="_blank" rel="noreferrer">
+                            <a href='https://github.com/mykoll007/API-RickAndMorty' target="_blank" rel="noreferrer">
                                 Ver Código
                             </a>
                         </div>
@@ -204,23 +200,22 @@ function Main() {
                 {/* Card 6 */}
                 <div className='card'>
                     <img src={Banner1} alt="" />
-                    <p className='titulo-card'>Guia dos Campeões - LoL</p>
-                    <p className='desc-card'>Este é um projeto desenvolvido em React + TypeScript + Vite que consome a API do League of Legends (DDragon) para exibir uma lista completa de personagens, com busca, visualização de detalhes e sistema de favoritos.</p>
-                    <p className='desc-tecno'><b className='tecnologias'>Tecnologias Utilizadas :</b><span className='tec-html'> HTML </span>,
+                    <p className='titulo-card' id='title-projeto'>Sistema de Formulário e Notificação por E-mail</p>
+                    <p className='desc-card'>Este projeto template básico mas cria formulários que guardam as informações em um banco de dados e também enviam esses dados por e-mail automaticamente.</p>
+                    <p className='desc-tecno'><b className='tecnologias'>Tecnologias Utilizadas :</b><span className='tec-php'> PHP </span>,
                         <span className='tec-css'> CSS </span>,
-                        <span className='tec-react'> React </span>,
-                        <span className='tec-ts'> TypeScript </span>,
-                        <span className='tec-js'> JavaScript </span>,
-                        <span className='tec-vite'> Vite </span></p>
+                         <span className='tec-js'> JavaScript </span>,
+                        <span className='tec-mysql'> MySQL </span>,
+                        <span className='tec-dockerfile'> Dockerfile </span></p>
 
                     <div className='align-links'>
                         <div className='align-link'>
                             <img src={imgLink} alt="Icone do Link" />
-                            <a href='https://lista-react-typescript.vercel.app/' target="_blank" rel="noreferrer">Ver Site</a>
+                            <a href='https://mova-se.onrender.com/index.html' target="_blank" rel="noreferrer">Ver Site</a>
                         </div>
                         <div className='align-link'>
                             <FaGithub />
-                            <a href='https://github.com/mykoll007/PI-React-Typescript' target="_blank" rel="noreferrer">
+                            <a href='https://github.com/mykoll007/Mova-se-' target="_blank" rel="noreferrer">
                                 Ver Código
                             </a>
                         </div>

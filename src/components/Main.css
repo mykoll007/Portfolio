@@ -168,6 +168,24 @@ h2{
   color: #005F73;
   font-weight: bold;
 }
+.tec-scss{
+  all: unset;
+  color: #CD6799;
+  font-weight: bold;
+}
+.tec-php{
+  all: unset;
+  color: #8892be;
+  font-weight: bold;
+}
+.tec-dockerfile{
+  all: unset;
+  color: #2496ED;
+  font-weight: bold;
+}
+#title-projeto{
+  line-height: 25px;
+}
 .align-links{
   display: flex;
   justify-content: space-around;
