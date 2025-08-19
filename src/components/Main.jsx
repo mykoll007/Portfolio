@@ -46,7 +46,7 @@ function Main() {
     };
 
     return (
-        <main>
+        <main id='inicio'>
             <div id='align'>
                 <h1 >
                     Olá 👋,<br />

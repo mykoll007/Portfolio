@@ -103,7 +103,6 @@ h2 {
   gap: 3rem;
   /* espaço entre os cards */
   padding: 2rem;
-  margin-bottom: 50px;
 }
 
 .card {
@@ -247,6 +246,10 @@ h2 {
   justify-content: center;
 }
 
+#contato{
+   margin-top: 50px;
+}
+
 #conteudo-contato {
     width: 90%;
     max-width: 440px;
@@ -260,7 +263,7 @@ h2 {
     border: 1px solid #363636;
     border-radius: 20px;
     font-family: poppins;
-    margin-bottom: 42px;
+    margin-bottom: 66px;
 }
 #conteudo-contato p{
   margin-bottom: 18px;
@@ -289,9 +292,11 @@ input {
   margin-top: 8px;
   width: 100%;
   display: flex;
+  padding-right: 22px;
   justify-content: center;
 }
 #align-btn button{
+  cursor: pointer;
   width: 125px;
     height: 37px;
     font-size: 16px;
@@ -335,6 +340,11 @@ textarea {
     height: 200px;
     margin-right: 0;
   }
+}
+@media screen and (max-width:860px) {
+#conteudo-contato{
+  margin-bottom: 0px;
+}
 }
 
 @media(max-width: 479px) {

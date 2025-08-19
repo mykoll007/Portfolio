@@ -38,7 +38,7 @@ function Header() {
     return (
         <header className={`header ${hidden ? 'hidden' : ''} ${atTop ? 'at-top' : 'scrolled'}`}>
             <div className="logo">
-                <span className="gradient">M.D.</span>
+                <span className="gradient"><a href='#inicio'>M.D.</a></span>
             </div>
 
             <button
