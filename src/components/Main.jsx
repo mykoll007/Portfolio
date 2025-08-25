@@ -188,7 +188,7 @@ function Main() {
 
         try {
             // Caso queira usar local só colocar o http do seu localhost
-            const response = await fetch("https://backend-ashy-psi-99.vercel.app/send", {
+            const response = await fetch("https://backend-ashy-psi-99.vercel.app/api/send", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
