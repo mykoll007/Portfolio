@@ -12,7 +12,14 @@ import imgGit from '../assets/git.svg';
 import imgMysql from '../assets/mysql.svg';
 import imgVScode from '../assets/vscode.svg';
 import imgGithub from '../assets/github.svg';
-import Banner1 from '../assets/Champs.png';
+import Banner1 from '../assets/Lyra.png';
+import Banner2 from '../assets/Champs.png';
+import Banner3 from '../assets/Elojob.png';
+import Banner4 from '../assets/Autenticacao.png';
+import Banner5 from '../assets/Fotografia.png';
+import Banner6 from '../assets/Mova-se.png';
+
+
 import imgLink from '../assets/link.svg';
 import { FaGithub } from 'react-icons/fa';
 
@@ -125,7 +132,7 @@ function Main() {
 
                 {/* Card 2 */}
                 <div className='card'>
-                    <img src={Banner1} alt="" />
+                    <img src={Banner2} alt="" />
                     <p className='titulo-card'>Guia dos Campeões - LoL</p>
                     <p className='desc-card'>Este é um projeto desenvolvido em React + TypeScript + Vite que consome a API do League of Legends (DDragon) para exibir uma lista completa de personagens, com busca, visualização de detalhes e sistema de favoritos.</p>
                     <p className='desc-tecno'><b className='tecnologias'>Tecnologias Utilizadas :</b><span className='tec-html'> HTML </span>,
@@ -151,7 +158,7 @@ function Main() {
 
                 {/* Card 3 */}
                 <div className='card'>
-                    <img src={Banner1} alt="" />
+                    <img src={Banner3} alt="" />
                     <p className='titulo-card'>Plataforma de Mentoria</p>
                     <p className='desc-card'>Sistema focado em serviços de elojob e mentoria, com gestão de pedidos, integração de pagamentos e acompanhamento de progresso. Segurança, eficiência e experiência do usuário são prioridades.</p>
                     <p className='desc-tecno'><b className='tecnologias'>Tecnologias Utilizadas :</b><span className='tec-html'> HTML </span>,
@@ -176,7 +183,7 @@ function Main() {
 
                 {/* Card 4 */}
                 <div className='card'>
-                    <img src={Banner1} alt="" />
+                    <img src={Banner4} alt="" />
                     <p className='titulo-card'>Sistema de Autenticação</p>
                     <p className='desc-card'>Experimente um sistema real de autenticação! Cadastre-se, faça login, recupere sua senha e veja como front-end, back-end em Node.js (JS), API REST e o banco de dados se conectam em um fluxo completo e profissional.</p>
                     <p className='desc-tecno'><b className='tecnologias'>Tecnologias Utilizadas :</b><span className='tec-html'> HTML </span>,
@@ -201,7 +208,7 @@ function Main() {
 
                 {/* Card 5 */}
                 <div className='card'>
-                    <img src={Banner1} alt="" />
+                    <img src={Banner5} alt="" />
                     <p className='titulo-card'>Portfólio Fotográfico</p>
                     <p className='desc-card'>Este projeto é um portfólio de fotografia criado para exibir o trabalho de um fotógrafo profissional. Inclui galerias de imagens, descrições de projetos, informações de contato e muito mais.</p>
                     <p className='desc-tecno'><b className='tecnologias'>Tecnologias Utilizadas :</b><span className='tec-html'> HTML </span>,
@@ -226,7 +233,7 @@ function Main() {
 
                 {/* Card 6 */}
                 <div className='card'>
-                    <img src={Banner1} alt="" />
+                    <img src={Banner6} alt="" />
                     <p className='titulo-card' id='title-projeto'>Sistema de Formulário e Notificação por E-mail</p>
                     <p className='desc-card'>Este projeto template básico mas cria formulários que guardam as informações em um banco de dados e também enviam esses dados por e-mail automaticamente.</p>
                     <p className='desc-tecno'><b className='tecnologias'>Tecnologias Utilizadas :</b><span className='tec-php'> PHP </span>,
