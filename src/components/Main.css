@@ -447,6 +447,9 @@ h1::after {
 .loader {
   width: 18px;
   height: 18px;
+  margin-top: 6px;
+    margin-left: 5px;
+  padding-top: 5px;
   border: 3px solid #fff;
   border-top: 3px solid transparent;
   border-radius: 50%;
