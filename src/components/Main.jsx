@@ -6,7 +6,7 @@ import imgJS from '../assets/js.svg';
 import imgReact from '../assets/react.svg';
 import imgVite from '../assets/vite.svg';
 import imgBootstrap from '../assets/bootstrap.svg';
-import imgNode from '../assets/Node.svg';
+import imgNode from '../assets/node.svg';
 import imgPhp from '../assets/php.svg';
 import imgGit from '../assets/git.svg';
 import imgMysql from '../assets/mysql.svg';
