@@ -437,7 +437,16 @@ function Main() {
                                 required />
 
                             <label htmlFor="telefone">Whatsapp:</label>
-                            <input type="number" value={telefone} onChange={(e) => setTelefone(e.target.value)} />
+                            <input type="number" value={telefone} onChange={(e) => {
+                                // mantém só números
+                                let valor = e.target.value.replace(/\D/g, "");
+                                // limita no máximo 11 dígitos
+                                if (valor.length > 11) valor = valor.slice(0, 11);
+                                setTelefone(valor);
+                            }}
+                                maxLength={11}
+                                required
+                            />
 
                             <label htmlFor="mensagem">Mensagem:</label>
                             <textarea id="mensagem" value={mensagem} onChange={(e) => setMensagem(e.target.value)} required></textarea>
