@@ -26,12 +26,15 @@ app.post("/api/send", async (req, res) => {
 
   try {
     const transporter = nodemailer.createTransport({
-      service: "gmail",
+      host: "smtp.gmail.com",
+      port: 465, // porta SSL
+      secure: true,
       auth: {
         user: process.env.EMAIL_SEND,
-        pass: process.env.SENHA_SEND,
+        pass: process.env.SENHA_SEND, // senha de app do Gmail
       },
     });
+
 
     await transporter.sendMail({
       from: process.env.EMAIL_SEND,
@@ -43,8 +46,8 @@ app.post("/api/send", async (req, res) => {
 
     res.status(200).json({ message: "Email enviado com sucesso!" });
   } catch (err) {
-    console.error(err);
-    res.status(500).json({ error: "Erro ao enviar email." });
+    console.error("Erro ao enviar email:", err);
+    res.status(500).json({ error: err.message });
   }
 });
 
