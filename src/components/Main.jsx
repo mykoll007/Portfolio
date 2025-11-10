@@ -338,7 +338,7 @@ function Main() {
                         <div className='align-links'>
                             <div className='align-link'>
                                 <img src={imgLink} alt="Icone do Link" />
-                                <a href='https://elojobxcronos.com.br/' target="_blank" rel="noreferrer">Ver Site</a>
+                                <a href='https://elojobxcronos.vercel.app/' target="_blank" rel="noreferrer">Ver Site</a>
                             </div>
                             <div className='align-link'>
                                 <FaGithub />
